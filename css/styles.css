@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* COLORES */
+.bg-cafe {
+  background-color: #5c3b1e !important;
+}
+
+.hero {
+  background: url('../assets/banner.jpg') center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h4 {
+  color: #5c3b1e;
+}
+
+li{
+  --bs-nav-link-color: #fff !important;
+}
+
+.lead {
+  color: #7f5c3c
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    height: 60vh;
+    text-align: center;
+  }
+}
