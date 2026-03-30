@@ -7,6 +7,15 @@ body {
   background-color: #5c3b1e !important;
 }
 
+.text-cafe {
+  color: #5c3b1e;
+}
+
+.text-verde {
+  color: #5c8d4d;
+}
+
+/* HERO */
 .hero {
   background: url('../assets/banner.jpg') center/cover no-repeat;
   height: 80vh;
@@ -15,18 +24,22 @@ body {
   justify-content: center;
 }
 
-h1, h2, h4 {
-  color: #5c3b1e;
+.hero h1,
+.hero .lead {
+  color: #fff;
 }
 
-li{
-  --bs-nav-link-color: #fff !important;
+/* NAVBAR */
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: #fff !important;
 }
 
-.lead {
-  color: #7f5c3c
+.navbar .nav-link:hover {
+  color: #d8f3dc !important;
 }
 
+/* GENERAL */
 section {
   scroll-margin-top: 80px;
 }

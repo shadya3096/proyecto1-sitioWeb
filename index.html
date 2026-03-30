@@ -10,19 +10,12 @@
 </head>
 <body>
 
-  <!-- Navegación principal -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-cafe sticky-top" aria-label="Navegación principal">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-cafe sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold">Brumas del Valle</a>
+      <a class="navbar-brand fw-bold" href="#inicio">Brumas del Valle</a>
 
-      <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#menu"
-        aria-controls="menu"
-        aria-expanded="false"
-        aria-label="Abrir menú de navegación">
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -38,7 +31,7 @@
     </div>
   </nav>
 
-  <!-- Encabezado principal -->
+  <!-- HERO -->
   <header id="inicio" class="hero text-white d-flex align-items-center">
     <div class="container text-center">
       <h1 class="display-4 fw-bold">Café Orgánico Costarricense</h1>
@@ -47,80 +40,58 @@
     </div>
   </header>
 
-  <!-- Contenido principal -->
   <main>
 
-    <!-- Sección institucional -->
-    <section id="institucional" class="container py-5" aria-labelledby="titulo-institucional">
+    <!-- NOSOTROS -->
+    <section id="institucional" class="container py-5">
       <div class="row">
         <div class="col-lg-8">
-          <h2 id="titulo-institucional" class="text-cafe">Quiénes somos</h2>
+          <h2 class="text-cafe">Quiénes somos</h2>
           <p>
             Café Brumas del Valle es una empresa dedicada a la producción y venta
-            de café orgánico costarricense, comprometida con la calidad del producto,
-            el respeto por el ambiente y la tradición cafetalera del país.
+            de café orgánico costarricense.
           </p>
 
           <h3 class="text-verde mt-4">Misión</h3>
           <p>
-            Producir y comercializar café orgánico de alta calidad, ofreciendo una
-            experiencia auténtica que refleje el esfuerzo de nuestros productores
-            y el valor de la agricultura sostenible.
+            Producir café de alta calidad respetando el ambiente.
           </p>
         </div>
       </div>
     </section>
 
-    <!-- Catálogo -->
-    <section id="catalogo" class="container py-5" aria-labelledby="titulo-catalogo">
-      <h2 id="titulo-catalogo" class="text-center text-cafe mb-4">Catálogo de productos</h2>
+    <!-- CATÁLOGO -->
+    <section id="catalogo" class="container py-5">
+      <h2 class="text-center text-cafe mb-4">Catálogo de productos</h2>
 
       <div class="row g-4">
 
         <article class="col-md-4">
           <div class="card h-100 shadow-sm">
-            <img 
-              src="assets/cafe-molido.jpg" 
-              class="card-img-top" 
-              alt="Bolsa de café molido orgánico">
+            <img src="assets/cafe-molido.jpg" class="card-img-top">
             <div class="card-body">
-              <h3 class="h5 card-title">Café Molido</h3>
-              <p class="card-text">
-                Café orgánico molido, ideal para preparar una taza con aroma intenso y sabor balanceado.
-              </p>
-              <p class="fw-bold mb-0">₡4,500</p>
+              <h3 class="h5">Café Molido</h3>
+              <p>₡4,500</p>
             </div>
           </div>
         </article>
 
         <article class="col-md-4">
           <div class="card h-100 shadow-sm">
-            <img 
-              src="assets/cafe-grano.jpg" 
-              class="card-img-top" 
-              alt="Café en grano en taza y mesa de madera">
+            <img src="assets/cafe-grano.jpg" class="card-img-top">
             <div class="card-body">
-              <h3 class="h5 card-title">Café en Grano</h3>
-              <p class="card-text">
-                Presentación en grano para quienes disfrutan moler su café y conservar su frescura natural.
-              </p>
-              <p class="fw-bold mb-0">₡5,200</p>
+              <h3 class="h5">Café en Grano</h3>
+              <p>₡5,200</p>
             </div>
           </div>
         </article>
 
         <article class="col-md-4">
           <div class="card h-100 shadow-sm">
-            <img 
-              src="assets/cafe-especial.jpg" 
-              class="card-img-top" 
-              alt="Taza de café especial servida caliente">
+            <img src="assets/cafe-especial.jpg" class="card-img-top">
             <div class="card-body">
-              <h3 class="h5 card-title">Edición Especial</h3>
-              <p class="card-text">
-                Selección premium de café de altura con perfil suave, ideal para ocasiones especiales.
-              </p>
-              <p class="fw-bold mb-0">₡6,100</p>
+              <h3 class="h5">Edición Especial</h3>
+              <p>₡6,100</p>
             </div>
           </div>
         </article>
@@ -128,83 +99,53 @@
       </div>
     </section>
 
-    <!-- Blog -->
-    <section id="blog" class="py-5 bg-light" aria-labelledby="titulo-blog">
+    <!-- BLOG -->
+    <section id="blog" class="py-5 bg-light">
       <div class="container">
-        <h2 id="titulo-blog" class="text-center text-cafe mb-4">Blog y cultura cafetalera</h2>
+        <h2 class="text-center text-cafe mb-4">Blog</h2>
 
         <div class="row g-4">
-
           <article class="col-md-4">
-            <div class="p-4 h-100 border rounded bg-white">
-              <h3 class="h5 text-verde">Receta de café frío</h3>
-              <p>
-                Aprende a preparar una bebida refrescante con café, hielo y un toque dulce para los días calurosos.
-              </p>
+            <div class="p-4 border rounded bg-white">
+              <h3 class="h5 text-verde">Receta café frío</h3>
+              <p>Refrescante y delicioso.</p>
             </div>
           </article>
 
           <article class="col-md-4">
-            <div class="p-4 h-100 border rounded bg-white">
-              <h3 class="h5 text-verde">Cultura cafetalera costarricense</h3>
-              <p>
-                Descubre cómo el café forma parte de la historia, la economía y la identidad de Costa Rica.
-              </p>
+            <div class="p-4 border rounded bg-white">
+              <h3 class="h5 text-verde">Cultura cafetalera</h3>
+              <p>Tradición costarricense.</p>
             </div>
           </article>
 
           <article class="col-md-4">
-            <div class="p-4 h-100 border rounded bg-white">
-              <h3 class="h5 text-verde">Consejos para preparar mejor café</h3>
-              <p>
-                Conoce recomendaciones básicas sobre molienda, agua y temperatura para mejorar cada taza.
-              </p>
+            <div class="p-4 border rounded bg-white">
+              <h3 class="h5 text-verde">Consejos</h3>
+              <p>Mejora tu café.</p>
             </div>
           </article>
-
         </div>
       </div>
     </section>
 
-    <!-- Contacto -->
-    <section id="contacto" class="container py-5" aria-labelledby="titulo-contacto">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <h2 id="titulo-contacto" class="text-center text-cafe mb-4">Contacto</h2>
+    <!-- CONTACTO -->
+    <section id="contacto" class="container py-5">
+      <h2 class="text-center text-cafe mb-4">Contacto</h2>
 
-          <form aria-label="Formulario de contacto">
-            <div class="mb-3">
-              <label for="nombre" class="form-label">Nombre completo</label>
-              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre completo">
-            </div>
-
-            <div class="mb-3">
-              <label for="correo" class="form-label">Correo electrónico</label>
-              <input type="email" class="form-control" id="correo" name="correo" placeholder="tucorreo@ejemplo.com">
-            </div>
-
-            <div class="mb-3">
-              <label for="asunto" class="form-label">Asunto</label>
-              <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Escribe el asunto">
-            </div>
-
-            <div class="mb-3">
-              <label for="mensaje" class="form-label">Mensaje</label>
-              <textarea class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-        </div>
-      </div>
+      <form>
+        <input class="form-control mb-3" placeholder="Nombre">
+        <input class="form-control mb-3" type="email" placeholder="Correo">
+        <textarea class="form-control mb-3" rows="4" placeholder="Mensaje"></textarea>
+        <button class="btn btn-primary">Enviar</button>
+      </form>
     </section>
 
   </main>
 
-  <!-- Pie de página -->
-  <footer class="bg-cafe text-white text-center py-3">
-    <p class="mb-1 fw-bold">Café Brumas del Valle</p>
-    <small>Producción y venta de café orgánico costarricense</small>
+  <!-- FOOTER -->
+  <footer class="bg-cafe text-white text-center p-3">
+    Café Brumas del Valle
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
